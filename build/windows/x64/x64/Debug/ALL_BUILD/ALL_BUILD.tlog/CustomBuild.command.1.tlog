@@ -1,0 +1,10 @@
+^D:\ANDROIDPROJECTS\UI_TUTS\UI_TUTS\WINDOWS\CMAKELISTS.TXT
+setlocal
+"D:\Program Files(x86)\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/AndroidProjects/ui_tuts/ui_tuts/windows -BD:/AndroidProjects/ui_tuts/ui_tuts/build/windows/x64 --check-stamp-file D:/AndroidProjects/ui_tuts/ui_tuts/build/windows/x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

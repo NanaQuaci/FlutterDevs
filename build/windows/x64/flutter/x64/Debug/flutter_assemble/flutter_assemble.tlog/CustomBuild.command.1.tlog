@@ -1,0 +1,28 @@
+^D:\ANDROIDPROJECTS\UI_TUTS\UI_TUTS\BUILD\WINDOWS\X64\CMAKEFILES\68B887D1759694184BA54D32967A0BEE\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"D:\Program Files(x86)\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\FlutterFiles\flutter PROJECT_DIR=D:\AndroidProjects\ui_tuts\ui_tuts FLUTTER_ROOT=D:\FlutterFiles\flutter FLUTTER_EPHEMERAL_DIR=D:\AndroidProjects\ui_tuts\ui_tuts\windows\flutter\ephemeral PROJECT_DIR=D:\AndroidProjects\ui_tuts\ui_tuts FLUTTER_TARGET=D:\AndroidProjects\ui_tuts\ui_tuts\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9mNDBlOTc2YmVkZmY1N2U2OWUxYjNkODlhN2MyYTNjNjE3YTAzZGFkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\AndroidProjects\ui_tuts\ui_tuts\.dart_tool\package_config.json D:/FlutterFiles/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ANDROIDPROJECTS\UI_TUTS\UI_TUTS\BUILD\WINDOWS\X64\CMAKEFILES\82D30DA01C19DF0B661501A16CD08A21\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ANDROIDPROJECTS\UI_TUTS\UI_TUTS\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"D:\Program Files(x86)\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/AndroidProjects/ui_tuts/ui_tuts/windows -BD:/AndroidProjects/ui_tuts/ui_tuts/build/windows/x64 --check-stamp-file D:/AndroidProjects/ui_tuts/ui_tuts/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
